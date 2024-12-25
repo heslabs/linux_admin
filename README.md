@@ -120,31 +120,24 @@ writable = yes
 
 ---
 ### Ubuntu Utilities
-
-#### Kazam
+* Kazam
 ```
 $ sudo apt install kazam
 ```
-
-#### Filezilla
+* Filezilla
 ```
 $ sudo apt-get install filezilla
 ```
-
-#### Sensors
+* Sensors
 ```
 $ sudo apt install -y gnome-screenshot
 $ sendors
 ```
-
-#### Screenshot
+* Screenshot
 ```
 $ sudo apt install -y gnome-screenshot
 ```
-
-#### Ubuntu（22.04 LTS）如何开启中文输入法
+* Ubuntu（22.04 LTS）如何开启中文输入法
 ```
 https://blog.csdn.net/windson_f/article/details/124932523 
 ```
-
-
