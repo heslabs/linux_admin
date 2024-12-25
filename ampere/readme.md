@@ -15,6 +15,12 @@ CPU part        : 0xd0c
 CPU revision    : 1
 ```
 
+### Ubuntu version
+```
+lsb_release -a
+Ubuntu 22.04.5 LTS
+```
+
 ### uname
 ```
 uname -a
@@ -25,6 +31,7 @@ Linux eeserver 5.15.0-126-generic #136-Ubuntu SMP Wed Nov 6 09:59:54 UTC 2024 aa
 apt update
 apt upgrade
 Failed to check for processor microcode upgrades.
+```
 ```
 uname -a
 Linux eeserver 5.15.0-126-generic #136-Ubuntu SMP Wed Nov 6 09:59:54 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
