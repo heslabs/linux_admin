@@ -1,5 +1,6 @@
 # Ampere server
 
+### /proc/cpuinfo
 ```
 cat /proc/cpuinfo
 ```
@@ -12,4 +13,10 @@ CPU architecture: 8
 CPU variant     : 0x3
 CPU part        : 0xd0c
 CPU revision    : 1
+```
+
+### uname
+```
+uname -a
+Linux eeserver 5.15.0-126-generic #136-Ubuntu SMP Wed Nov 6 09:59:54 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
 ```
