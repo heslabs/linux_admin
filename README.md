@@ -43,11 +43,6 @@ $ sudo systemctl restart ssh
 $ openssl rand -base64 6
 $ sudo userdel -r <user>
 ```
-```
-# Adding the User to the sudo Group
-$ sudo usermod -aG sudo sammy
-```
-
 ---
 ### Configure network and wifi
 ```
