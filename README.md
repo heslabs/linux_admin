@@ -43,6 +43,14 @@ $ sudo systemctl restart ssh
 $ openssl rand -base64 6
 $ sudo userdel -r <user>
 ```
+
+---
+### cpuinfo
+```
+$ sudo lspcu
+$ cat /proc/cpuinfo
+```
+
 ---
 ### Configure network and wifi
 ```
