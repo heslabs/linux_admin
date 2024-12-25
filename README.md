@@ -71,7 +71,7 @@ $ sudo chmod -R o-rwx /home/<user>
 ```
 
 ---
-### nfs server
+### Setup nfs server
 ```
 $ sudo apt install nfs-kernel-server
 $ mkdir /home/nfs
@@ -83,7 +83,7 @@ exporting *:/home/nfs
 $ sudo systemctl restart nfs-kernel-server
 ```
 
-### nfs client
+### Setup nfs client
 ```
 $ sudo apt install nfs-common
 $ mkdir /home/nfs
