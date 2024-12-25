@@ -28,9 +28,13 @@ $ sudo shutdown -r / -h now
 $ sudo useradd -s /bin/bash -d /home/<user> -m <user>
 $ sudo usermod -aG sudo <user>
 $ sudo passwd <user>
+```
+```
 $ sudo vim /etc/ssh/sshd_config
 ## Add the line at the end
-"AllowUsers <user>"
+AllowUsers <user>
+```
+```
 $ sudo systemctl restart ssh
 ```
 ```
