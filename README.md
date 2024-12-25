@@ -75,13 +75,9 @@ $ sudo apt install nfs-kernel-server
 $ mkdir /home/nfs
 $ sudo vim /etc/exports
 /home/nfs      *(rw,sync,no_subtree_check)
-```
-```
 $ sudo chmod 777 /home/nfs
 $ sudo exportfs -rav
 exporting *:/home/nfs
-```
-```
 $ sudo systemctl restart nfs-kernel-server
 ```
 
