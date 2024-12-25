@@ -37,8 +37,9 @@ AllowUsers <user>
 ```
 $ sudo systemctl restart ssh
 ```
+
+### Generate random password
 ```
-# Generate random password
 $ openssl rand -base64 6
 $ sudo userdel -r <user>
 ```
