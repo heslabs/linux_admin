@@ -56,6 +56,9 @@ $ cat /proc/cpuinfo
 ```
 $ sudo vim /etc/hosts 
 $ sudo vim /etc/hostname
+```
+```
+$ sudo apt-get install network-manager
 $ sudo nmcli dev wifi connect <SSID> password <PASSWD>
 $ sudo nmcli dev wifi connect SOCLABS password Call6576886
 $ sudo nmcli dev wifi connect LABS password arm12345
