@@ -67,6 +67,24 @@ $ sudo apt-get install portmap
 ```
 
 ---
+#### nmcli
+ 
+After the system is updated, we will run this command to install nmcli.
+```
+sudo apt-get install network-manager
+```
+Press “y” when prompted with “Do you want to continue? [Y/n]”. After the installation has completed, we can start the Network Manager with this command.
+```
+sudo systemctl start NetworkManager.service 
+```
+Next, we will enable Network Manager to start on system boot with using the systemctl command below. 
+```
+sudo systemctl enable NetworkManager.service
+```
+We will cover more of the basic nmcli commands further along in this article, but the complete reference can be found in the nmcli man page using the “man nmcli” command.
+After the system is updated, we will run this command to install nmcli.
+ 
+---
 #### PYNQ wifi
 ```
 sudo pip3 install pydantic
