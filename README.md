@@ -65,6 +65,23 @@ $ sudo systemctl restart nfs-kernel-server
 $ sudo apt-get update
 $ sudo apt-get install portmap
 ```
+
+---
+#### PYNQ wifi
+```
+sudo pip3 install pydantic
+```
+
+wifi.py
+```
+from pynq.lib import Wifi
+#from pydantic import BaseModel
+port = Wifi()
+port.connect('SOCLABS', 'Call6576886')
+#!ping -I wlan0 www.yahoo.com -c 10
+# port.reset()
+```
+
 ---
 ### Add new FTP user
 ```
